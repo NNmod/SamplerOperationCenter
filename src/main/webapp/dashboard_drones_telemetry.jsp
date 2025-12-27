@@ -48,7 +48,7 @@
     <p class="flex text-start self-center justify-self-center text-md w-64 text-white/90 mb-2">pitch: <c:out value="${telemetry.pitch}"/></p>
     <p class="flex text-start self-center justify-self-center text-md w-64 text-white/90 mb-2">yaw: <c:out value="${telemetry.yaw}"/></p>
   </div>
-  <div class="flex w-full h-full">
+  <div class="flex w-full h-full invert">
     <div id="map"></div>
   </div>
 </div>
