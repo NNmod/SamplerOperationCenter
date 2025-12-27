@@ -8,7 +8,7 @@
     <title>Login - Sampler Operation Center</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="flex flex-col gap-4 w-full min-h-screen bg-[rgba(45,45,51,1)] items-center justify-center">
+<body class="flex flex-col gap-4 w-full min-h-screen bg-white invert items-center justify-center">
 <div class="flex flex-col w-full mb-1">
     <p class="text-white/90 text-3xl text-center pointer-events-none">Login to Sampler Operation Center</p>
 </div>

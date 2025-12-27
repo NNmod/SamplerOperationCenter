@@ -18,7 +18,7 @@
         }
     </style>
 </head>
-<body class="flex flex-col w-full h-screen min-h-screen bg-[rgba(45,45,51,1)] items-center justify-center">
+<body class="flex flex-col w-full h-screen min-h-screen bg-white invert items-center justify-center">
 <div class="z-40 top-0 flex w-full h-16 p-2 bg-[rgba(43,45,48,1)] border-solid border-b-[1px] border-[rgba(71,71,74,255)]">
     <a href="/dashboard/missions" class="cursor-pointer">
         <button class="flex bg-blue-500 rounded-lg w-64 h-full text-white items-center justify-center hover:bg-blue-400 hover:drop-shadow-sm duration-300">
@@ -55,7 +55,7 @@
             </div>
         </form>
     </div>
-    <div class="flex w-full h-full">
+    <div class="flex w-full h-full invert">
         <div id="map"></div>
     </div>
 </div>

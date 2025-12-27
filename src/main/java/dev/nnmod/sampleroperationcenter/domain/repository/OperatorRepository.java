@@ -18,12 +18,10 @@ public class OperatorRepository implements IOperatorRepository {
     public List<Operator> findAll() {
         return entityManager.createQuery("SELECT o FROM Operator o", Operator.class).getResultList();
     }
-
     @Override
     public Optional<Operator> findById(Long id) {
         return Optional.ofNullable(entityManager.find(Operator.class, id));
     }
-
     @Override
     public Optional<Operator> findByLogin(String login) {
         return entityManager.createQuery("SELECT o FROM Operator o WHERE o.login = :login", Operator.class)
@@ -32,7 +30,6 @@ public class OperatorRepository implements IOperatorRepository {
                 .stream()
                 .findFirst();
     }
-
     @Override
     public Operator save(Operator operator) {
         if (operator.getId() == null) {

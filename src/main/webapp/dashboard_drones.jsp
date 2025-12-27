@@ -8,7 +8,7 @@
   <title>Dashboard Drones - Sampler Operation Center</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="flex flex-col gap-4 w-full min-h-screen bg-[rgba(45,45,51,1)] items-center justify-start">
+<body class="flex flex-col gap-4 w-full min-h-screen bg-white invert items-center justify-start">
 <div class="z-40 sticky top-0 flex w-full h-16 p-2 bg-[rgba(43,45,48,1)] border-solid border-b-[1px] border-[rgba(71,71,74,255)]">
   <a href="/dashboard" class="cursor-pointer">
     <button class="flex bg-blue-500 rounded-lg w-64 h-full text-white items-center justify-center hover:bg-blue-400 hover:drop-shadow-sm duration-300">

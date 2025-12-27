@@ -1,3 +1,5 @@
+
+
 <persistence xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:persistence="https://jakarta.ee/xml/ns/persistence" version="3.1">
     <persistence-unit name="samplerOperationCenterPersistence" transaction-type="JTA">
         <jta-data-source>jdbc/PostgresPool</jta-data-source>
